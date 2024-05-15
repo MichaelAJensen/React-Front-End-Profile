@@ -1,0 +1,12 @@
+.resume-div {
+    width:70%;
+    
+}
+.indent {
+    text-indent: 5em;
+    /* text-align: center; */
+}
+.resume-h1 {
+    text-align: center;
+    margin: 10px;
+}

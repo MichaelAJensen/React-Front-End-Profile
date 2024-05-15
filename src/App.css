@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+@import url(./stylesheets/Navbar.css);
+@import url(./stylesheets/Home.css);
+@import url(./stylesheets/About.css);
+@import url(./stylesheets/Projects.css);
+@import url(./stylesheets/Contacts.css);
+@import url(./stylesheets/GitHub.css);
+@import url(./stylesheets/LinkedIn.css);
+@import url(./assets/webfonts/all.min.css);
+@import url(./assets/css/all.css);
+@import url(./stylesheets/QuoteGenerator.css);
+@import url(./stylesheets/MagicEightBall.css);
+@import url(./assets/css/animate.css);
+@import url(./stylesheets/Pomodoro.css);
+@import url(./stylesheets/DrumMachine.css);
+@import url(./stylesheets/Todo.css);
+@import url(./stylesheets/Resume.css);
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom right, black, white);
+    /* overflow: scroll;   */
+    /* transform: rotateY(45deg); */
+    
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    /* overflow: scroll;    */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.link {
+    color: lightgray;
+    font-size: x-large;
+    margin-right: 20px;
 }
+.link:hover {
+    color:skyblue;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+h1 {
+    font-size: larger;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer {
+    font-family: cursive;
+    font-size: larger;
+    text-align: right;
+    /* color:gray; */
 }

@@ -1,0 +1,166 @@
+.drumMachine {
+  grid-area: drumMachine;
+  border: 2px solid;
+}
+
+/* *,/* for drum */
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  /* background-color: bisque; */
+  background-color: lightgray;
+  border: 2px solid black;
+  align-items: center;
+  box-shadow: 5px 5px 5px black;
+
+}
+
+/* for dog */
+.wrapper2 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  border: 5px double black;
+  align-items: center;
+}
+
+.drumMachineHeader {
+  margin-bottom: 2%;
+}
+
+#display {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  /* background-color: skyblue;  */
+}
+
+.drum-pad {
+  margin: 5px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: gray;
+  width: 100%;
+  font-weight: bolder;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 5px;
+  font-family: cursive;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  font-family: cursive;
+ }
+
+input[type=range]::-webkit-slider-thumb {
+  height: 3%;
+  width: 1%;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: black;
+  font-family: cursive;
+  
+}
+
+.volume {
+  box-shadow: none;
+  width: 50%;
+  border: 5px double;
+  font-family: cursive;
+}
+
+.bankDiv {
+  /* background-color: bisque; */
+  background-color: lightgray;
+}
+
+.outside {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: bisque; */
+  background-color: lightgray;
+  grid-area: drumMachine;
+  border: double;
+  position: relative;
+  border-radius: 10px;;
+ 
+}
+
+.dialog {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  position: absolute;
+  top: 0;
+  background: url(../assets/gabriel-barletta--lWcaUVJ39Y-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 100%;
+  /* background-size:cover;
+  background-repeat: no-repeat;
+  background-position: 75%; */
+}
+
+.closeBtn {
+  box-shadow: 5px 5px 5px black;
+  margin-bottom: 10px;
+  font-family: cursive;
+  background-color: black;
+  color: lightgray;
+  border-color: grey;
+}
+
+.bank {
+  margin-bottom: 5px;
+  box-shadow: 5px 5px 5px black;
+  margin-top: 10px;
+  font-family: cursive;
+  color: lightgray;
+  background-color: black;
+  border-color: gray;
+}
+
+.volumeTag {
+  font-size: smaller;
+  font-family: cursive;
+  /* color: lightgray; */
+  /* background-color: black; */
+}
+
+.showBtn {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px black;
+  font-family: cursive;
+  /* background-color: skyblue; */
+  background-color: black;
+  color: lightgray;
+  border-color: gray;
+}
+.icon {
+  font-size: xx-large;
+}
